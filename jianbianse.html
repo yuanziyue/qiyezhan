@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>渐变色</title>
+	<style>
+		.box{
+			width: 300px;
+			height: 200px;
+			background: linear-gradient(blue,red);/* 线性渐变 */
+			background: -webkit-linear-gradient(blue,red);/* 谷歌浏览器 */
+			background: -moz-linear-gradient(blue,red);
+			/* 火狐浏览器 */
+			background: -o-linear-gradient(blue,red);
+			/* opera */
+		}
+		
+		.box1{
+			width: 300px;
+			height: 200px;
+			background: linear-gradient(to right,blue,red);/* 线性渐变 */
+			background: -webkit-linear-gradient(left,blue,red);/* 谷歌浏览器 */
+			background: -moz-linear-gradient(left,blue,red);
+			/* 火狐浏览器 */
+			background: -o-linear-gradient(left,blue,red);
+			/* opera */
+		}
+		.box2{
+			width: 300px;
+			height: 200px;
+			background: linear-gradient(45deg,blue,red);/* 线性渐变 */
+			background: -webkit-linear-gradient(45deg,blue,red);/* 谷歌浏览器 */
+			background: -moz-linear-gradient(45deg,blue,red);
+			/* 火狐浏览器 */
+			background: -o-linear-gradient(45deg,blue,red);
+			/* opera */
+		}
+		.box3{
+			width: 300px;
+			height: 200px;
+			background: linear-gradient(90deg,blue 50%,red 50%,red 100%,pink 10%);/* 线性渐变 */
+			/background: -webkit-linear-gradient(45deg,blue,red);/* 谷歌浏览器 */ 
+			background: -moz-linear-gradient(45deg,blue,red);
+			/* 火狐浏览器 */
+			background: -o-linear-gradient(45deg,blue,red);
+			/* opera */
+		}
+		.box5{
+			font-size: 50px;
+			text-align: center;
+			background-image:linear-gradient(to right,red,blue);
+			-webkit-background-clip:text; 
+			-webkit-text-fill-color: transparent;
+		}
+		.box6{
+			width: 300px;
+			height: 200px;
+			background: radial-gradient(circle at 30px 30px,skyblue 10%,yellow 30%);
+		}
+		.box7{
+			width: 300px;
+			height: 200px;
+			background: radial-gradient(circle at 30px 30px,skyblue 10%,yellow 30%);
+			-webkit-background: radial-gradient(30px 30px,skyblue 10%,yellow 30%);
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div><!-- 加色标 -->
+	<div class="box5">渐变色文字</div>
+	<div class="box6">渐变色文字</div>
+	<div class="box7">渐变色文字</div>
+	<div class="box8">发光文字</div>
+
+
+</body>
+</html>

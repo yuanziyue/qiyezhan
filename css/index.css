@@ -1,0 +1,680 @@
+/*
+* @Author: MacBook Air
+* @Date:   2017-12-21 08:53:01
+* @Last Modified by:   MacBook Air
+* @Last Modified time: 2017-12-22 09:35:15
+*/
+body{
+	font-family: "微软雅黑","苹方";
+	font-weight: 900;
+}
+.nav{
+	width: 100%;
+	height: 57px;
+	background-color: #1c1c1c;
+}
+.nav-neikuan{
+	width: 854px;
+	height: 57px;
+	margin: 0 auto;
+	padding: 0 25px 0;
+}
+.nav-left{
+	width: 68px;
+	height: 57px;
+	text-align: center;
+	line-height: 57px;
+	float: left;
+
+}
+.nav-logo{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 13.5px;
+}
+.nav-left span{
+	float: right;
+	font-size: 10px;
+	color: #fff;
+}
+.nav-center{
+	width: 632px;
+	height: 57px;
+	float: left;
+	margin-left: 30px;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式 */
+	align-items: center;/* 设置单行垂直对齐方式 */
+}
+.nav-center-item{
+	width: 72px;
+	height: 57px;
+	float: left;
+	text-align: center;
+	line-height: 57px;
+}
+.nav-center-item span{
+	font-size: 12px;
+	color: #fff;
+}
+.nav-center-item img:hover{
+	cursor: pointer;
+}
+.nav-center-item span:hover{
+	color: #25adcc;
+	cursor: pointer;
+}
+.nav-right{
+	float: right;
+	width: 19px;
+	height: 19px;
+	margin-top: 19px;
+}
+.nav-right span{
+	color: #fff;
+}
+.nav-right span:hover{
+	cursor: pointer;
+	color: #25adcc;
+}
+
+.banner{
+	width: 100%;
+	height: 591px;
+}
+.banner-item{
+	width: 100%;
+	height: 591px;
+}
+.banner-img{
+	width: 100%;
+	height: 590px;
+}
+.banner .banner-lunbodian{
+	width: 36px;
+	height: 3px;
+	margin-bottom: 30px;
+
+
+}
+.banner .swiper-pagination-bullet-active{
+	background-color: rgba(255, 255, 255,.8)
+}
+.aboutus{
+	width: 100%;
+	height: 798px;
+	background-image: url('../img/aboutus-img_02.png');
+	background-position: right;
+}
+.aboutus-neikuan{
+	width: 855px;
+	height: 798px;
+	margin: 0 auto;
+	background-position: right;
+	padding-top: 50px;
+}
+.aboutus-title{
+	width: 143px;
+	height: 111px;
+	margin: 0 auto;
+	/* margin-top: 50px; */
+	margin-bottom: 45px;
+}
+.aboutus-neirong{
+	width: 100%;
+	height: 540px;
+	position: relative;
+}
+.aboutus-kuang{
+	width: 329px;
+	height: 483px;
+	border: 5px solid #a1fbf2;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.aboutus-left-img{
+	width: 483px;
+	height: 492px;
+	background-color: #f2fefd;
+	position: absolute;
+	left: 42px;
+	top: 48px;
+}
+.aboutus-neirong-wenzi{
+	width: 287px;
+	height: 492px;
+	position: absolute;
+	right: 0;
+	top: 48px;
+}
+.aboutus-neirong-wenzi h1{
+	margin-top: 139px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, .8);
+}
+.aboutus-neirong-wenzi h2{
+	font-size: 9px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .7);
+}
+.aboutus-neirong-wenzi p:nth-child(3){
+	font-size: 10px;
+	color: rgba(0, 0, 0, .8);
+	margin-top: 28px;
+}
+.aboutus-neirong-wenzi p:nth-child(4){
+	font-size: 10px;
+	color: rgba(0, 0, 0, .7);
+	margin-top: 10px;
+}
+.aboutus-neirong-wenzi h3{
+	font-size: 9px;
+	color: rgba(0, 0, 0, .8);
+	margin-top: 28px;
+}
+.aboutus-neirong-wenzi h4{
+	font-size: 9px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .7);
+}
+.aboutus-more{
+	width: 60px;
+	height: 18px;
+	margin-top: 15px;
+}
+.aboutus-more-left{
+	width: 42px;
+	height: 18px;
+	float: left;
+	background-color: #fff;
+	border-bottom: 3px solid  #4a4a4a;
+	line-height: 18px;
+	position: relative;
+}
+.aboutus-more-left span{
+	font-size: 12px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .8);
+	position: absolute;
+	bottom:-2px;
+}
+.aboutus-more-left span:hover{
+	cursor: pointer;
+	color: #1dc0e5;
+}
+.aboutus-more-right{
+	width: 18px;
+	height: 18px;
+	float: right;
+	background-color: #4a4a4a;
+	text-align: center;
+	line-height: 18px;
+}
+.aboutus-more-right span{
+	color: #fff;
+}
+
+.about-us-neirong-title{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "San Francisco Display";
+	color: #456091;
+	position: absolute;
+	left: 460px;
+	top: 147px;
+	z-index: 99;
+}
+.about-us-neirong-img{
+	width: 47px;
+	height: 53px;
+	position: absolute;
+	left: 604px;
+	top: 112px;
+}
+.chanpin{
+	width: 100%;
+	height: 855px;
+	background-image: url('../img/chanpin-beijing_03.png')
+}
+.chanpin-neikuan{
+	width: 855px;
+	height: 855px;
+	margin: 0 auto;
+	position: relative;
+}
+.chanpin-title{
+	width: 144px;
+	height: 106px;
+	position: absolute;
+	left: 349px;
+	top: 5px;
+	margin-bottom: 60px;
+}
+.chanpin-neirong{
+	width: 314px;
+	height: 333px;
+	position: relative;
+	top: 169px;
+	left: 42px;
+}
+.chanpin-neirong h1{
+	font-size: 50px;
+	color: #7bd8ed;
+	font-weight: bolder;
+	font-family: "San Francisco Display";
+	line-height: 50px;
+}
+.chanpin-neirong h2{
+	font-size: 50px;
+	color: #7bd8ed;
+	font-weight: bolder;
+	line-height: 50px;
+	font-family: "San Francisco Display";
+	/* -webkit-margin: 0; */
+}
+.chanpin-neirong h3{
+	font-size: 17px;
+	color: rgba(0, 0, 0, .9);
+	margin-top: 15px;
+}
+.chanpin-neirong h4{
+	font-size: 10px;
+	color: rgba(0, 0, 0, .6);
+	font-family: "San Francisco Display";
+	margin-bottom: 20px;
+}
+.chanpin-neirong p:nth-child(5){
+	font-size: 10px;
+	color: rgba(0, 0, 0, .7);
+	margin-bottom: 10px;
+}
+.chanpin-neirong p:nth-child(6){
+	font-size: 10px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .7);
+}
+.chanpin .aboutus-more-left{
+	border-bottom:3px solid #a9e4f2;
+}
+.chanpin .aboutus-more-right{
+	background-color: #a9e4f2;
+}
+.chanpin-kuaile{
+	width: 91px;
+	height: 62px;
+	position: absolute;
+	right: 0;
+	top: 634px;
+}
+.xiaowanju{
+	width: 215px;
+	height: 199px;
+	position: absolute;
+	left: 43px;
+	top: 532px;
+}
+.dawanju{
+	width: 392px;
+	height: 551px;
+	position: absolute;
+	top: 256px;
+	right: 38px;
+
+}
+.ad{
+	width: 100%;
+	height: 319px;
+}
+.serve{
+	width: 100%;
+	height: 742px;
+	background-color: #1d1d1d;
+}
+.serve-neikuan{
+	width: 855px;
+	height: 742px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.serve-top{
+	width: 100%;
+	height: 109px;
+	margin-top: 68px;
+	margin-bottom: 87px;
+}
+.serve-top-title{
+	width: 144px;
+	height: 109px;
+	margin: 0 auto;
+}
+.serve-bottom{
+	width: 885px;
+	height: 403px;
+}
+.serve-bottom-item{
+	width: 265px;
+	height: 387px;
+	padding-top: 12px;
+	text-align: center;
+	position: relative;
+	float: left;
+	background-color: #fff;
+	transition: all .3s linear;
+}
+.serve-bottom-item:hover{
+	transform: translateY(-5px);
+}
+.serve-bottom-item .h1:hover{
+	color: #fcaf63;
+}
+.serve-bottom-item:hover .serve-jia{
+	background-color: #fcaf63;
+}
+.serve-bottom-item1{
+	margin: 0 30px;
+}
+.serve-item-img{
+	width: 241px;
+	height: 211px;
+	margin-left: 12px;
+	margin-bottom: 35px;
+}
+.serve-bottom-item .h1{
+	font-size: 25px;
+	font-family: "San Francisco Display";
+	color: #2595e6;
+	font-weight: bolder;
+}
+.serve-bottom-item h2{
+	font-size: 13px;
+	color: rgba(0, 0, 0, .8);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.serve-bottom-item h3{
+	font-size: 10px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .7);
+}
+.serve-jia{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: -16px;
+	left: 115px;
+	background-color:#7fb8ee;
+	text-align: center;
+	line-height: 32px;
+
+}
+.serve-jia .serve-jia-jiahao{
+	color: #fff;
+	font-weight: bolder;
+	font-size: 22px;
+}
+.team{
+	width: 100%;
+	height: 853px;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+.team-title{
+	width: 144px;
+	height: 106px;
+	margin: 82px auto 0;
+}
+.team-ad{
+	width: 100%;
+	height: 255px;
+	position: absolute;
+	left: 0;
+	bottom:164px;
+}
+.nv1{
+	width: 276px;
+	height: 457px;
+	position: absolute;
+	left: 257px;
+	bottom: 164px;
+}
+.nv2{
+	width: 103px;
+	height: 117px;
+	position: absolute;
+	left: 589px;
+	bottom: 113px;
+}
+.nv3{
+	width: 103px;
+	height: 146px;
+	position: absolute;
+	left: 719px;
+	bottom: 113px;
+}
+.nv4{
+	width: 103px;
+	height: 117px;
+	position: absolute;
+	left: 849px;
+	bottom: 113px;
+}
+.nv5{
+	width: 103px;
+	height: 117px;
+	position: absolute;
+	left: 979px;
+	bottom: 113px;
+}
+.team h1{
+	font-size: 30px;
+	font-family: "San Francisco Display";
+	color: #7bd8ed;
+	font-weight: bolder;
+	position: absolute;
+	left: 496px;
+	top: 318px;
+}
+.team-jieshao{
+	position: absolute;
+	left: 587px;
+	top: 360px;
+
+}
+.team-jieshao span:nth-child(1){
+	font-size: 18px;
+	font-family: "San Francisco Display";
+	color: rgba(0, 0, 0, .9);
+	display: block;
+}
+.team-jieshao span:nth-child(2){
+	font-size: 14px;
+	color: rgba(0, 0, 0, .8);
+	display: block;
+}
+.team-jieshao span:nth-child(3){
+	font-size: 10px;
+	color: rgba(0, 0, 0, .7);
+	float: left;
+	display: block;
+}
+.team-neirong{
+	width: 217px;
+	position: absolute;
+	left: 587px;
+	top: 485px;
+}
+.team-neirong span{
+	font-size: 10px;
+	color: #fff;
+	color: rgba(255, 255, 255, .8);
+}
+.team-neirong p{
+	font-size: 10px;
+	color: #fff;
+	color: rgba(255, 255, 255, .8);
+}
+.footer{
+	width: 100%;
+	height: 365px;
+	background-color: #2a2a2a;
+	position: relative;
+}
+.ditu{
+	width: 710px;
+	height: 117px;
+	position: absolute;
+	left: 322px;
+	top: 50px;
+}
+.liuyan{
+	width: 272px;
+	height: 117px;
+	position: absolute;
+	left: 322px;
+	top: 197px;
+}
+.input1{
+	width: 131px;
+	height: 21px;
+	background-color: #fff;
+	border: 0;
+	float: left;
+}
+.input2{
+	width: 131px;
+	height: 21px;
+	background-color: #fff;
+	border: 0;
+	float: right;
+}
+.liuyan1{
+	width: 272px;
+	height: 88px;
+	background-color: #fff;
+	margin-top: 29px;
+}
+.liuyan12{
+	width: 272px;
+	height: 88px;
+	background-color: #fff;
+	border: 0;
+}
+.footer-more{
+	width: 210px;
+	height: 117px;
+	position: absolute;
+	left: 640px;
+	top: 197px;
+}
+.footer-yunying{
+	width: 131px;
+	height: 117px;
+	position: absolute;
+	left:899px;
+	top: 197px;
+}
+.foter-more-top{
+	width: 100%;
+	height: 30px;
+}
+.footer .foter-more-top span:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.foter-more-top span:nth-child(1){
+	font-size: 10px;
+	color: rgba(255, 255, 255, .7);
+	display: block;
+}
+.foter-more-top span:nth-child(2){
+	font-size: 10px;
+	color: rgba(255, 255, 255, .7);
+	font-family: "San Francisco Display";
+	display: block;
+	line-height: 10px;
+}
+.foter-more-bottom{
+	width: 100%;
+	height: 87px;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式 */
+	align-items: center;/* 设置单行垂直对齐方式 */
+	/* align-content: space-between;  */
+
+}
+.footer .foter-more-bottom span:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.foter-more-bottom span{
+	font-size: 10px;
+	color: rgba(255, 255, 255, .7);
+
+}
+.footer-yunying-top{
+	width: 100%;
+	height: 30px;
+}
+.footer-yunying-top span:nth-child(1){
+	font-size: 10px;
+	color: rgba(255, 255, 255, .7);
+	display: block;
+}
+.footer-yunying-top span:nth-child(2){
+	font-size: 10px;
+	color: rgba(255, 255, 255, .7);
+	font-family: "San Francisco Display";
+	display: block;
+	line-height: 10px;
+}
+.footer-yunying-top span:hover{
+	color: #fff;
+	cursor: pointer;
+
+}
+.footer-yunying-center{
+	width: 131px;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式 */
+	align-items: center;/* 设置单行垂直对齐方式 */
+}
+.footer-yunying-center span{
+	color: #fff;
+	font-size: 30px;
+	margin: 7px 0;
+}
+.footer-center-bottom span{
+	font-size: 9px;
+	color: rgba(255, 255, 255, .7);
+	line-height: 9px;
+
+}
+.footer-center-bottom span:hover{
+	color: #fff;
+	cursor: pointer;
+}
+.input3{
+	padding-left: 8px;
+}
+.footer-jiaobu{
+	width: 100%;
+	height: 62px;
+	background-color: #1d1d1d;
+	text-align: center;
+	font-size: 10px;
+	line-height: 62px;
+	color: rgba(255, 255, 255, .7);
+
+}
+.footer-jiaobu:hover{
+	color: #fff;
+	cursor: pointer;
+
+}
